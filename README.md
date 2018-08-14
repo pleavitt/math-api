@@ -9,7 +9,7 @@ Tech:
 This app was built for the primary purpose as a test for a prospective employer.
 
 ## Demo
-[Here](http://mathapi-env-1.bpf2sp92sc.ap-southeast-2.elasticbeanstalk.com/) is a link to a demo of the API
+[Here](https://arcane-beyond-77883.herokuapp.com/) is a link to a demo of the API
 
 ## Current Issues/Outstanding Tasks
 - Create unit tests.
