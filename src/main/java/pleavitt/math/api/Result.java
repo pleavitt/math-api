@@ -1,18 +1,12 @@
 package pleavitt.math.api;
 
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.Data;
 
-@Setter
-@Getter
-@ToString
-@NoArgsConstructor
+@Data
 public class Result {
     private float result;
 
-    public Result(float result){
+    public Result(float result) {
         this.result = result;
     }
 }
