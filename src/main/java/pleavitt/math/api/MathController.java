@@ -51,12 +51,6 @@ public class MathController {
     }
 
     @CrossOrigin
-    @GetMapping("/ln")
-    public Result doLogNatural(@RequestParam float op1) {
-        return new Result((float) Math.log(op1));
-    }
-
-    @CrossOrigin
     @GetMapping("/pi")
     public Result doPi() {
         return new Result((float) Math.PI);
